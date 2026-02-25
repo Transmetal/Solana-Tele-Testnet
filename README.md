@@ -1,5 +1,3 @@
-
-```markdown
 # 🚀 Solana Telegram Automation Suite
 
 ![Solana](https://img.shields.io/badge/Solana-Web3.js-black?style=for-the-badge&logo=solana)
@@ -7,25 +5,25 @@
 ![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?style=for-the-badge&logo=telegram)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-## 📌 Overview
+## Overview
 
 **Solana Telegram Automation Suite** is a robust Node.js-based toolkit designed to bridge **Telegram** interfaces with the **Solana Blockchain**.
 
 Developed as a reference architecture for the Solana Community, this project demonstrates how to programmatically manage wallets, sign transactions, and monitor on-chain events in real-time. It serves as a foundational framework for building Trading Bots, Sniping Tools, and DeFi Notification Systems.
 
-## ✨ Key Features
+## Key Features
 
-### 1. 🤖 Interactive Trading Bot (`telegram-bot.js`)
+### 1. Interactive Trading Bot (`telegram-bot.js`)
 -   **Wallet Management:** Securely import wallets using private keys (via environment variables).
 -   **On-Chain Command:** Execute transactions (e.g., Send SOL) directly via Telegram commands like `/buy`.
 -   **Explorer Integration:** Automatically generates Solscan links for every successful transaction.
 
-### 2. 🕵️‍♂️ Real-Time Sniper Monitor (`sniper-bot.js`)
+### 2. Real-Time Sniper Monitor (`sniper-bot.js`)
 -   **WebSocket Listening:** Utilizes `connection.onLogs` to listen to the Solana Mainnet in real-time.
 -   **New Pool Detection:** Instantly detects new Liquidity Pool creations on **Raydium** and **Pump.fun**.
 -   **Helius RPC Integration:** Optimized for high-throughput data streaming using WSS (Secure WebSocket).
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Runtime:** Node.js
 -   **Blockchain SDK:** `@solana/web3.js`, `@solana/spl-token`
@@ -33,7 +31,7 @@ Developed as a reference architecture for the Solana Community, this project dem
 -   **Cryptography:** `bs58` (Base58 decoding)
 -   **Infrastructure:** Helius RPC (Recommended for WebSocket stability)
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -74,7 +72,7 @@ Run this script to monitor the Solana Mainnet for new token launches on Raydium.
 node sniper-bot.js
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Solana-Tele-Testnet/
@@ -100,6 +98,6 @@ This project is intended for **Educational and Research Purposes** only.
 ---
 
 <p align="center">
-  Built with ☕ by <b>Transmetal</b> | Solana Community Vice Chair
+  Built with ☕ by <b>Transmetal</b> | Solana Developer
 </p>
-```
+
